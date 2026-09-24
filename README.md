@@ -2,7 +2,7 @@
 
 
 ## Requirements
-UV Install: https://docs.astral.sh/uv/getting-started/installation/#installation-methods
+UV Install: https://docs.astral.sh/uv/getting-started/installation/#installation-methods (Note only install uv, don't do anything else)
 
 
 
@@ -11,5 +11,5 @@ UV Install: https://docs.astral.sh/uv/getting-started/installation/#installation
 
 - Open terminal
 - Insert "uv sync"
-- Fill out .env_example
-- Rename .env_example to .env
+- Fill out ".env_example"
+- Rename ".env_example" to ".env"
