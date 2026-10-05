@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e67633ebc6f9d2f7aafca1de10bb0d38 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e67633ebc6f9d2f7aafca1de10bb0d38" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e67633ebc6f9d2f7aafca1de10bb0d38 = L.map(
+                "map_e67633ebc6f9d2f7aafca1de10bb0d38",
+                {
+                    center: [55.66999053955078, 12.534996032714844],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3192741a0c863dfd712f842e1a9e2c93 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3192741a0c863dfd712f842e1a9e2c93.addTo(map_e67633ebc6f9d2f7aafca1de10bb0d38);
+        
+    
+            var feature_group_8380893c6e59a610a47ed88f41bcacd0 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var rectangle_8116d34743ebd7ad16f57bcc2355aa4e = L.rectangle(
+                [[55.64999771118164, 12.50000286102295], [55.65999221801758, 12.509997367858887]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff100ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_9c83f1edf9aebe36972929673cf2804c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_92022ab64036f01ae8f664921589a1b8 = $(`<div id="html_92022ab64036f01ae8f664921589a1b8" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>25.54 °C</b><br>     Built-up: 83.6%<br>     Latitude: 55.65499<br>     Longitude: 12.50500     </div>`)[0];
+                popup_9c83f1edf9aebe36972929673cf2804c.setContent(html_92022ab64036f01ae8f664921589a1b8);
+            
+        
+
+        rectangle_8116d34743ebd7ad16f57bcc2355aa4e.bindPopup(popup_9c83f1edf9aebe36972929673cf2804c)
+        ;
+
+        
+    
+    
+            var rectangle_79655f99f14eb86d5751525735e95506 = L.rectangle(
+                [[55.64999771118164, 12.509997367858887], [55.65999221801758, 12.519991874694824]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8cff73ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_eb8be4b6ca61fd5aedf9ab998617f976 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a20096149e4b78097746e1572fa57517 = $(`<div id="html_a20096149e4b78097746e1572fa57517" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>24.51 °C</b><br>     Built-up: 88.3%<br>     Latitude: 55.65499<br>     Longitude: 12.51499     </div>`)[0];
+                popup_eb8be4b6ca61fd5aedf9ab998617f976.setContent(html_a20096149e4b78097746e1572fa57517);
+            
+        
+
+        rectangle_79655f99f14eb86d5751525735e95506.bindPopup(popup_eb8be4b6ca61fd5aedf9ab998617f976)
+        ;
+
+        
+    
+    
+            var rectangle_5b1818278082ee86918a7c9e14edb9bb = L.rectangle(
+                [[55.64999771118164, 12.519991874694824], [55.65999221801758, 12.529986381530762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d5ff2aff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_8b6ec10ff086902430b0413fd3ef3de9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_69a995382b8f57e1d867fefba6d91b0a = $(`<div id="html_69a995382b8f57e1d867fefba6d91b0a" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>24.99 °C</b><br>     Built-up: 50.6%<br>     Latitude: 55.65499<br>     Longitude: 12.52499     </div>`)[0];
+                popup_8b6ec10ff086902430b0413fd3ef3de9.setContent(html_69a995382b8f57e1d867fefba6d91b0a);
+            
+        
+
+        rectangle_5b1818278082ee86918a7c9e14edb9bb.bindPopup(popup_8b6ec10ff086902430b0413fd3ef3de9)
+        ;
+
+        
+    
+    
+            var rectangle_379d3e92f8478a9ef9bf35bf16a94e82 = L.rectangle(
+                [[55.64999771118164, 12.530001640319824], [55.65999221801758, 12.539996147155762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb200ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_11de23bc53f64b34f86a3aed5536dc8a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c74e56dea03110f483a5d4fe80d8bfed = $(`<div id="html_c74e56dea03110f483a5d4fe80d8bfed" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>26.70 °C</b><br>     Built-up: 58.9%<br>     Latitude: 55.65499<br>     Longitude: 12.53500     </div>`)[0];
+                popup_11de23bc53f64b34f86a3aed5536dc8a.setContent(html_c74e56dea03110f483a5d4fe80d8bfed);
+            
+        
+
+        rectangle_379d3e92f8478a9ef9bf35bf16a94e82.bindPopup(popup_11de23bc53f64b34f86a3aed5536dc8a)
+        ;
+
+        
+    
+    
+            var rectangle_405f09354dfed72f43338514fb9a67ff = L.rectangle(
+                [[55.64999771118164, 12.539996147155762], [55.65999221801758, 12.5499906539917]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb900ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_af38edef01c0a181d141f6c942e407b8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dd5b16b7d65f4332e8cda67f501753a8 = $(`<div id="html_dd5b16b7d65f4332e8cda67f501753a8" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>26.57 °C</b><br>     Built-up: 82.2%<br>     Latitude: 55.65499<br>     Longitude: 12.54499     </div>`)[0];
+                popup_af38edef01c0a181d141f6c942e407b8.setContent(html_dd5b16b7d65f4332e8cda67f501753a8);
+            
+        
+
+        rectangle_405f09354dfed72f43338514fb9a67ff.bindPopup(popup_af38edef01c0a181d141f6c942e407b8)
+        ;
+
+        
+    
+    
+            var rectangle_fa1dc6e00e091548bd3a026bdc092307 = L.rectangle(
+                [[55.66000747680664, 12.50000286102295], [55.67000198364258, 12.509997367858887]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#46ffb9ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_50c368f7ce631f0370df2e9a66c423d0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_eec6c59b9a170907568420e7d58a636f = $(`<div id="html_eec6c59b9a170907568420e7d58a636f" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>24.05 °C</b><br>     Built-up: 70.7%<br>     Latitude: 55.66500<br>     Longitude: 12.50500     </div>`)[0];
+                popup_50c368f7ce631f0370df2e9a66c423d0.setContent(html_eec6c59b9a170907568420e7d58a636f);
+            
+        
+
+        rectangle_fa1dc6e00e091548bd3a026bdc092307.bindPopup(popup_50c368f7ce631f0370df2e9a66c423d0)
+        ;
+
+        
+    
+    
+            var rectangle_0543b6e5b99ee978f4d2a0bbf537455a = L.rectangle(
+                [[55.66000747680664, 12.509997367858887], [55.67000198364258, 12.519991874694824]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ffff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_8aa5bdc6394f48d8c039c28a79fcb3fe = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_db74a53bceb675a8b7581e12b7ff3edd = $(`<div id="html_db74a53bceb675a8b7581e12b7ff3edd" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>21.92 °C</b><br>     Built-up: 83.6%<br>     Latitude: 55.66500<br>     Longitude: 12.51499     </div>`)[0];
+                popup_8aa5bdc6394f48d8c039c28a79fcb3fe.setContent(html_db74a53bceb675a8b7581e12b7ff3edd);
+            
+        
+
+        rectangle_0543b6e5b99ee978f4d2a0bbf537455a.bindPopup(popup_8aa5bdc6394f48d8c039c28a79fcb3fe)
+        ;
+
+        
+    
+    
+            var rectangle_8a570ff5e016f86d6b2e8aaeed9f9021 = L.rectangle(
+                [[55.66000747680664, 12.519991874694824], [55.67000198364258, 12.529986381530762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00c6ffff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_69e0a1fe548658453bf018eda44276a2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b6fd355b3054a96c697c73623441cc2f = $(`<div id="html_b6fd355b3054a96c697c73623441cc2f" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>23.22 °C</b><br>     Built-up: 32.3%<br>     Latitude: 55.66500<br>     Longitude: 12.52499     </div>`)[0];
+                popup_69e0a1fe548658453bf018eda44276a2.setContent(html_b6fd355b3054a96c697c73623441cc2f);
+            
+        
+
+        rectangle_8a570ff5e016f86d6b2e8aaeed9f9021.bindPopup(popup_69e0a1fe548658453bf018eda44276a2)
+        ;
+
+        
+    
+    
+            var rectangle_694e81c99a577a99567e967b308f28b7 = L.rectangle(
+                [[55.66000747680664, 12.530001640319824], [55.67000198364258, 12.539996147155762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8cff73ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_236a94e82b5131b2b1cb158c41a7d673 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_34308ca4daa51ef8ff5f87df1b895f01 = $(`<div id="html_34308ca4daa51ef8ff5f87df1b895f01" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>24.51 °C</b><br>     Built-up: 71.0%<br>     Latitude: 55.66500<br>     Longitude: 12.53500     </div>`)[0];
+                popup_236a94e82b5131b2b1cb158c41a7d673.setContent(html_34308ca4daa51ef8ff5f87df1b895f01);
+            
+        
+
+        rectangle_694e81c99a577a99567e967b308f28b7.bindPopup(popup_236a94e82b5131b2b1cb158c41a7d673)
+        ;
+
+        
+    
+    
+            var rectangle_d33482bb888be550faa68650cbaa9b23 = L.rectangle(
+                [[55.66000747680664, 12.539996147155762], [55.67000198364258, 12.5499906539917]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#efff10ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_103685df2991c718b102a73299c9d653 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_de0d1f6081a5d5cfa91d7df36f3b167e = $(`<div id="html_de0d1f6081a5d5cfa91d7df36f3b167e" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>25.16 °C</b><br>     Built-up: 88.5%<br>     Latitude: 55.66500<br>     Longitude: 12.54499     </div>`)[0];
+                popup_103685df2991c718b102a73299c9d653.setContent(html_de0d1f6081a5d5cfa91d7df36f3b167e);
+            
+        
+
+        rectangle_d33482bb888be550faa68650cbaa9b23.bindPopup(popup_103685df2991c718b102a73299c9d653)
+        ;
+
+        
+    
+    
+            var rectangle_9e3ef77db5fe5e3c1bf9f0a2bce4e9e9 = L.rectangle(
+                [[55.66000747680664, 12.550005912780762], [55.67000198364258, 12.5600004196167]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9800ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_2b6ab9196e2fca704da377affc763d6b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_189cccba4496baabe8c9fd01ab5c42de = $(`<div id="html_189cccba4496baabe8c9fd01ab5c42de" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>27.07 °C</b><br>     Built-up: 89.7%<br>     Latitude: 55.66500<br>     Longitude: 12.55500     </div>`)[0];
+                popup_2b6ab9196e2fca704da377affc763d6b.setContent(html_189cccba4496baabe8c9fd01ab5c42de);
+            
+        
+
+        rectangle_9e3ef77db5fe5e3c1bf9f0a2bce4e9e9.bindPopup(popup_2b6ab9196e2fca704da377affc763d6b)
+        ;
+
+        
+    
+    
+            var rectangle_1535ef198dff23a95cf4a4007e1ad317 = L.rectangle(
+                [[55.66000747680664, 12.5600004196167], [55.67000198364258, 12.569994926452637]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff3100ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_22787200a3ea6838c1f5d9e9dd76c340 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_379e0933d68bc9d034fbc6c7b860dd9c = $(`<div id="html_379e0933d68bc9d034fbc6c7b860dd9c" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>28.11 °C</b><br>     Built-up: 78.1%<br>     Latitude: 55.66500<br>     Longitude: 12.56500     </div>`)[0];
+                popup_22787200a3ea6838c1f5d9e9dd76c340.setContent(html_379e0933d68bc9d034fbc6c7b860dd9c);
+            
+        
+
+        rectangle_1535ef198dff23a95cf4a4007e1ad317.bindPopup(popup_22787200a3ea6838c1f5d9e9dd76c340)
+        ;
+
+        
+    
+    
+            var rectangle_2dd0913f20f38825dcc836e8dd7865e6 = L.rectangle(
+                [[55.67000198364258, 12.50000286102295], [55.679996490478516, 12.509997367858887]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00d7ffff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_6802923095be2d48d24d2bca4f2ce6e0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_df955ac6326e5b7202efd2128ba93cdf = $(`<div id="html_df955ac6326e5b7202efd2128ba93cdf" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>23.33 °C</b><br>     Built-up: 58.3%<br>     Latitude: 55.67500<br>     Longitude: 12.50500     </div>`)[0];
+                popup_6802923095be2d48d24d2bca4f2ce6e0.setContent(html_df955ac6326e5b7202efd2128ba93cdf);
+            
+        
+
+        rectangle_2dd0913f20f38825dcc836e8dd7865e6.bindPopup(popup_6802923095be2d48d24d2bca4f2ce6e0)
+        ;
+
+        
+    
+    
+            var rectangle_0936d59f775fbc5438dfd38ba9fd141b = L.rectangle(
+                [[55.67000198364258, 12.509997367858887], [55.679996490478516, 12.519991874694824]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00daffff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_b4d96d3d09c58d5346ceb2b951ca704f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1b3e4a06c9c718026899db857fddf6cc = $(`<div id="html_1b3e4a06c9c718026899db857fddf6cc" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>23.35 °C</b><br>     Built-up: 49.6%<br>     Latitude: 55.67500<br>     Longitude: 12.51499     </div>`)[0];
+                popup_b4d96d3d09c58d5346ceb2b951ca704f.setContent(html_1b3e4a06c9c718026899db857fddf6cc);
+            
+        
+
+        rectangle_0936d59f775fbc5438dfd38ba9fd141b.bindPopup(popup_b4d96d3d09c58d5346ceb2b951ca704f)
+        ;
+
+        
+    
+    
+            var rectangle_f1993ef190f848fbd1337b7283ac6f7f = L.rectangle(
+                [[55.67000198364258, 12.519991874694824], [55.679996490478516, 12.529986381530762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cffc3ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_9253d3dee2444a0b0c9899dae9e3bc70 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e436804a3fa00d4f2584f9a065dae799 = $(`<div id="html_e436804a3fa00d4f2584f9a065dae799" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>23.99 °C</b><br>     Built-up: 36.9%<br>     Latitude: 55.67500<br>     Longitude: 12.52499     </div>`)[0];
+                popup_9253d3dee2444a0b0c9899dae9e3bc70.setContent(html_e436804a3fa00d4f2584f9a065dae799);
+            
+        
+
+        rectangle_f1993ef190f848fbd1337b7283ac6f7f.bindPopup(popup_9253d3dee2444a0b0c9899dae9e3bc70)
+        ;
+
+        
+    
+    
+            var rectangle_f092daed1084ec330583e02dd39df8c1 = L.rectangle(
+                [[55.67000198364258, 12.530001640319824], [55.679996490478516, 12.539996147155762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#95ff6aff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_aab89de49e0164510a626c29d88e629c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_52860f494600191161b8d9ec9bc8117a = $(`<div id="html_52860f494600191161b8d9ec9bc8117a" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>24.57 °C</b><br>     Built-up: 69.7%<br>     Latitude: 55.67500<br>     Longitude: 12.53500     </div>`)[0];
+                popup_aab89de49e0164510a626c29d88e629c.setContent(html_52860f494600191161b8d9ec9bc8117a);
+            
+        
+
+        rectangle_f092daed1084ec330583e02dd39df8c1.bindPopup(popup_aab89de49e0164510a626c29d88e629c)
+        ;
+
+        
+    
+    
+            var rectangle_6f4a5ad2c1a91e146e22a2722dcaea55 = L.rectangle(
+                [[55.67000198364258, 12.539996147155762], [55.679996490478516, 12.5499906539917]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff700ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_5bc78c20cf53dbde1a1b75469bfe98ef = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_426a2c0afff816902d7ca84b6f392a47 = $(`<div id="html_426a2c0afff816902d7ca84b6f392a47" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>25.43 °C</b><br>     Built-up: 75.2%<br>     Latitude: 55.67500<br>     Longitude: 12.54499     </div>`)[0];
+                popup_5bc78c20cf53dbde1a1b75469bfe98ef.setContent(html_426a2c0afff816902d7ca84b6f392a47);
+            
+        
+
+        rectangle_6f4a5ad2c1a91e146e22a2722dcaea55.bindPopup(popup_5bc78c20cf53dbde1a1b75469bfe98ef)
+        ;
+
+        
+    
+    
+            var rectangle_dd60c3e36ee86f413cf28aa22ddb2c26 = L.rectangle(
+                [[55.67000198364258, 12.550005912780762], [55.679996490478516, 12.5600004196167]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_f6e675aae4a0533bccbed3d6bec37661 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_607573e2d80685416bb0a12cae8f31de = $(`<div id="html_607573e2d80685416bb0a12cae8f31de" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>28.61 °C</b><br>     Built-up: 70.0%<br>     Latitude: 55.67500<br>     Longitude: 12.55500     </div>`)[0];
+                popup_f6e675aae4a0533bccbed3d6bec37661.setContent(html_607573e2d80685416bb0a12cae8f31de);
+            
+        
+
+        rectangle_dd60c3e36ee86f413cf28aa22ddb2c26.bindPopup(popup_f6e675aae4a0533bccbed3d6bec37661)
+        ;
+
+        
+    
+    
+            var rectangle_3bea67e7419155c6d3661d6d1dd927ee = L.rectangle(
+                [[55.67000198364258, 12.5600004196167], [55.679996490478516, 12.569994926452637]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff5a00ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_ac315ea95a60e456bc68c8dab327389c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5cc75d986c9d83aa7b7ba5a65ffa61e2 = $(`<div id="html_5cc75d986c9d83aa7b7ba5a65ffa61e2" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>27.70 °C</b><br>     Built-up: 94.0%<br>     Latitude: 55.67500<br>     Longitude: 12.56500     </div>`)[0];
+                popup_ac315ea95a60e456bc68c8dab327389c.setContent(html_5cc75d986c9d83aa7b7ba5a65ffa61e2);
+            
+        
+
+        rectangle_3bea67e7419155c6d3661d6d1dd927ee.bindPopup(popup_ac315ea95a60e456bc68c8dab327389c)
+        ;
+
+        
+    
+    
+            var rectangle_21d13a312275ea2539c34cf18c2f4d3b = L.rectangle(
+                [[55.679996490478516, 12.50000286102295], [55.68999099731445, 12.509997367858887]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#32ffcdff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_040d8277fd040ddbaaa8ada92afbd2db = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_51dd873980a76b8df6c08f5dd7cdd02a = $(`<div id="html_51dd873980a76b8df6c08f5dd7cdd02a" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>23.92 °C</b><br>     Built-up: 63.8%<br>     Latitude: 55.68499<br>     Longitude: 12.50500     </div>`)[0];
+                popup_040d8277fd040ddbaaa8ada92afbd2db.setContent(html_51dd873980a76b8df6c08f5dd7cdd02a);
+            
+        
+
+        rectangle_21d13a312275ea2539c34cf18c2f4d3b.bindPopup(popup_040d8277fd040ddbaaa8ada92afbd2db)
+        ;
+
+        
+    
+    
+            var rectangle_a4f9c186a4a3dab66403c622e6cc415c = L.rectangle(
+                [[55.679996490478516, 12.509997367858887], [55.68999099731445, 12.519991874694824]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#27ffd8ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_daaf62ae54699b297ae6e8f12ace4e12 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_097db3a330da54a35307882d766f77dc = $(`<div id="html_097db3a330da54a35307882d766f77dc" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>23.85 °C</b><br>     Built-up: 63.3%<br>     Latitude: 55.68499<br>     Longitude: 12.51499     </div>`)[0];
+                popup_daaf62ae54699b297ae6e8f12ace4e12.setContent(html_097db3a330da54a35307882d766f77dc);
+            
+        
+
+        rectangle_a4f9c186a4a3dab66403c622e6cc415c.bindPopup(popup_daaf62ae54699b297ae6e8f12ace4e12)
+        ;
+
+        
+    
+    
+            var rectangle_241669c88036e11869f881e27b13329e = L.rectangle(
+                [[55.679996490478516, 12.519991874694824], [55.68999099731445, 12.529986381530762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#28ffd7ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_f703a187e5baec82cfc3d2424b06500f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d1c1651344e469dabfede6d9d56211eb = $(`<div id="html_d1c1651344e469dabfede6d9d56211eb" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>23.86 °C</b><br>     Built-up: 77.4%<br>     Latitude: 55.68499<br>     Longitude: 12.52499     </div>`)[0];
+                popup_f703a187e5baec82cfc3d2424b06500f.setContent(html_d1c1651344e469dabfede6d9d56211eb);
+            
+        
+
+        rectangle_241669c88036e11869f881e27b13329e.bindPopup(popup_f703a187e5baec82cfc3d2424b06500f)
+        ;
+
+        
+    
+    
+            var rectangle_82f47f9e5e0d4bd23dcd08457287d17f = L.rectangle(
+                [[55.679996490478516, 12.530001640319824], [55.68999099731445, 12.539996147155762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde00ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_9a83993c916db874fbf1a7a9240908fc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d4980abd014325b825312233d687a929 = $(`<div id="html_d4980abd014325b825312233d687a929" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>25.89 °C</b><br>     Built-up: 79.7%<br>     Latitude: 55.68499<br>     Longitude: 12.53500     </div>`)[0];
+                popup_9a83993c916db874fbf1a7a9240908fc.setContent(html_d4980abd014325b825312233d687a929);
+            
+        
+
+        rectangle_82f47f9e5e0d4bd23dcd08457287d17f.bindPopup(popup_9a83993c916db874fbf1a7a9240908fc)
+        ;
+
+        
+    
+    
+            var rectangle_b5eeeeb29b2fbcdbadef2fe3f1d480b4 = L.rectangle(
+                [[55.679996490478516, 12.539996147155762], [55.68999099731445, 12.5499906539917]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb500ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_c090a6b0a036b183c9ce05590fc9a442 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1ade49a97937025f49e80c61455cc3ce = $(`<div id="html_1ade49a97937025f49e80c61455cc3ce" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>26.64 °C</b><br>     Built-up: 71.2%<br>     Latitude: 55.68499<br>     Longitude: 12.54499     </div>`)[0];
+                popup_c090a6b0a036b183c9ce05590fc9a442.setContent(html_1ade49a97937025f49e80c61455cc3ce);
+            
+        
+
+        rectangle_b5eeeeb29b2fbcdbadef2fe3f1d480b4.bindPopup(popup_c090a6b0a036b183c9ce05590fc9a442)
+        ;
+
+        
+    
+    
+            var rectangle_3b54a24c397333f2bf1165e7494fb2b6 = L.rectangle(
+                [[55.679996490478516, 12.550005912780762], [55.68999099731445, 12.5600004196167]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc800ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_8f938c280480c7bab92af8529c429971 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9f425f5e01ec4b6f54a80e3c07e56ab3 = $(`<div id="html_9f425f5e01ec4b6f54a80e3c07e56ab3" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>26.30 °C</b><br>     Built-up: 69.3%<br>     Latitude: 55.68499<br>     Longitude: 12.55500     </div>`)[0];
+                popup_8f938c280480c7bab92af8529c429971.setContent(html_9f425f5e01ec4b6f54a80e3c07e56ab3);
+            
+        
+
+        rectangle_3b54a24c397333f2bf1165e7494fb2b6.bindPopup(popup_8f938c280480c7bab92af8529c429971)
+        ;
+
+        
+    
+    
+            var rectangle_412863f3cae70fd7c5fc3d7764e79d68 = L.rectangle(
+                [[55.679996490478516, 12.5600004196167], [55.68999099731445, 12.569994926452637]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8380893c6e59a610a47ed88f41bcacd0);
+        
+    
+        var popup_ef30acffc83538ad121907eb0c4b7c7b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_92b9873493b67469f40c195d9f146660 = $(`<div id="html_92b9873493b67469f40c195d9f146660" style="width: 100.0%; height: 100.0%;">     <b>Land Surface Temperature</b><br><br>     LST: <b>25.27 °C</b><br>     Built-up: 61.0%<br>     Latitude: 55.68499<br>     Longitude: 12.56500     </div>`)[0];
+                popup_ef30acffc83538ad121907eb0c4b7c7b.setContent(html_92b9873493b67469f40c195d9f146660);
+            
+        
+
+        rectangle_412863f3cae70fd7c5fc3d7764e79d68.bindPopup(popup_ef30acffc83538ad121907eb0c4b7c7b)
+        ;
+
+        
+    
+    
+            feature_group_8380893c6e59a610a47ed88f41bcacd0.addTo(map_e67633ebc6f9d2f7aafca1de10bb0d38);
+        
+    
+            var feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var rectangle_c3e2733aede9f104229c9e51905a291f = L.rectangle(
+                [[55.64999771118164, 12.50000286102295], [55.65999221801758, 12.509997367858887]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff5100ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_2a2b8a8690421a19c1cbd672456d325e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_abff51692750a66d41282977cf24f54b = $(`<div id="html_abff51692750a66d41282977cf24f54b" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>83.6%</b><br>     LST: 25.54 °C     </div>`)[0];
+                popup_2a2b8a8690421a19c1cbd672456d325e.setContent(html_abff51692750a66d41282977cf24f54b);
+            
+        
+
+        rectangle_c3e2733aede9f104229c9e51905a291f.bindPopup(popup_2a2b8a8690421a19c1cbd672456d325e)
+        ;
+
+        
+    
+    
+            var rectangle_cb8aa2123669f81edc4ef1d7bc8e196f = L.rectangle(
+                [[55.64999771118164, 12.509997367858887], [55.65999221801758, 12.519991874694824]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff3900ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_39873e4e8f0369116b3679c4d0968db1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3ac658c832d0308127721e73bb9af113 = $(`<div id="html_3ac658c832d0308127721e73bb9af113" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>88.3%</b><br>     LST: 24.51 °C     </div>`)[0];
+                popup_39873e4e8f0369116b3679c4d0968db1.setContent(html_3ac658c832d0308127721e73bb9af113);
+            
+        
+
+        rectangle_cb8aa2123669f81edc4ef1d7bc8e196f.bindPopup(popup_39873e4e8f0369116b3679c4d0968db1)
+        ;
+
+        
+    
+    
+            var rectangle_08ac7f794f82e5b0da57874096f6d0e8 = L.rectangle(
+                [[55.64999771118164, 12.519991874694824], [55.65999221801758, 12.529986381530762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd100ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_be82436e39e75cd58a46dd6e6d7759ac = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dec99b2be0d3aa901b5cab1be0899ed8 = $(`<div id="html_dec99b2be0d3aa901b5cab1be0899ed8" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>50.6%</b><br>     LST: 24.99 °C     </div>`)[0];
+                popup_be82436e39e75cd58a46dd6e6d7759ac.setContent(html_dec99b2be0d3aa901b5cab1be0899ed8);
+            
+        
+
+        rectangle_08ac7f794f82e5b0da57874096f6d0e8.bindPopup(popup_be82436e39e75cd58a46dd6e6d7759ac)
+        ;
+
+        
+    
+    
+            var rectangle_d43eaf84e23088b3c2e591008c54606b = L.rectangle(
+                [[55.64999771118164, 12.530001640319824], [55.65999221801758, 12.539996147155762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffba00ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_258bb446d1847aa897910b8f5149d2aa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_641416a308257bbe2944c044933a47af = $(`<div id="html_641416a308257bbe2944c044933a47af" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>58.9%</b><br>     LST: 26.70 °C     </div>`)[0];
+                popup_258bb446d1847aa897910b8f5149d2aa.setContent(html_641416a308257bbe2944c044933a47af);
+            
+        
+
+        rectangle_d43eaf84e23088b3c2e591008c54606b.bindPopup(popup_258bb446d1847aa897910b8f5149d2aa)
+        ;
+
+        
+    
+    
+            var rectangle_51bf7f23ffb452ab412809a4ff819ecf = L.rectangle(
+                [[55.64999771118164, 12.539996147155762], [55.65999221801758, 12.5499906539917]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff5800ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_a12124ef9ddfe246c51058ed4b3f02da = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4c0f75cb33d7d0a433a12ff44c73ab3b = $(`<div id="html_4c0f75cb33d7d0a433a12ff44c73ab3b" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>82.2%</b><br>     LST: 26.57 °C     </div>`)[0];
+                popup_a12124ef9ddfe246c51058ed4b3f02da.setContent(html_4c0f75cb33d7d0a433a12ff44c73ab3b);
+            
+        
+
+        rectangle_51bf7f23ffb452ab412809a4ff819ecf.bindPopup(popup_a12124ef9ddfe246c51058ed4b3f02da)
+        ;
+
+        
+    
+    
+            var rectangle_420f790c4e0ec170e7113fced7d1bc67 = L.rectangle(
+                [[55.64999771118164, 12.550005912780762], [55.65999221801758, 12.5600004196167]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6e00ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_d888203535ce29f061719d7619f72ba4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_16fc564f4a45c3ad2e66f68b1c3f3e27 = $(`<div id="html_16fc564f4a45c3ad2e66f68b1c3f3e27" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>77.8%</b><br>     LST: nan °C     </div>`)[0];
+                popup_d888203535ce29f061719d7619f72ba4.setContent(html_16fc564f4a45c3ad2e66f68b1c3f3e27);
+            
+        
+
+        rectangle_420f790c4e0ec170e7113fced7d1bc67.bindPopup(popup_d888203535ce29f061719d7619f72ba4)
+        ;
+
+        
+    
+    
+            var rectangle_13d34b4ad785d61bb42daf0a0f6743c6 = L.rectangle(
+                [[55.64999771118164, 12.5600004196167], [55.65999221801758, 12.569994926452637]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe300ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_63ec157872d85469b4297d7b232ba0f3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ab6b06471e8690877f2d65ff800ac3d8 = $(`<div id="html_ab6b06471e8690877f2d65ff800ac3d8" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>43.9%</b><br>     LST: nan °C     </div>`)[0];
+                popup_63ec157872d85469b4297d7b232ba0f3.setContent(html_ab6b06471e8690877f2d65ff800ac3d8);
+            
+        
+
+        rectangle_13d34b4ad785d61bb42daf0a0f6743c6.bindPopup(popup_63ec157872d85469b4297d7b232ba0f3)
+        ;
+
+        
+    
+    
+            var rectangle_5616981934b713612a5f0bb4402403e8 = L.rectangle(
+                [[55.66000747680664, 12.50000286102295], [55.67000198364258, 12.509997367858887]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9100ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_82c94b919f521a12a945d56093d5cc94 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_17f9973777988a12ec42571a53598694 = $(`<div id="html_17f9973777988a12ec42571a53598694" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>70.7%</b><br>     LST: 24.05 °C     </div>`)[0];
+                popup_82c94b919f521a12a945d56093d5cc94.setContent(html_17f9973777988a12ec42571a53598694);
+            
+        
+
+        rectangle_5616981934b713612a5f0bb4402403e8.bindPopup(popup_82c94b919f521a12a945d56093d5cc94)
+        ;
+
+        
+    
+    
+            var rectangle_b30153777069986229d9af430a1d3226 = L.rectangle(
+                [[55.66000747680664, 12.509997367858887], [55.67000198364258, 12.519991874694824]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff5100ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_2c1e8261284c4825c699ce1a262e09f2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e08f5f63564522ebc51c44c6f3f46831 = $(`<div id="html_e08f5f63564522ebc51c44c6f3f46831" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>83.6%</b><br>     LST: 21.92 °C     </div>`)[0];
+                popup_2c1e8261284c4825c699ce1a262e09f2.setContent(html_e08f5f63564522ebc51c44c6f3f46831);
+            
+        
+
+        rectangle_b30153777069986229d9af430a1d3226.bindPopup(popup_2c1e8261284c4825c699ce1a262e09f2)
+        ;
+
+        
+    
+    
+            var rectangle_ff6f0f72be4b4043b4c3d2a145d7f229 = L.rectangle(
+                [[55.66000747680664, 12.519991874694824], [55.67000198364258, 12.529986381530762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff08ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_3d83265f7bb10f7353859e0a52e6f582 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2292a78053e8e92f8ace64bb4ddbd40e = $(`<div id="html_2292a78053e8e92f8ace64bb4ddbd40e" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>32.3%</b><br>     LST: 23.22 °C     </div>`)[0];
+                popup_3d83265f7bb10f7353859e0a52e6f582.setContent(html_2292a78053e8e92f8ace64bb4ddbd40e);
+            
+        
+
+        rectangle_ff6f0f72be4b4043b4c3d2a145d7f229.bindPopup(popup_3d83265f7bb10f7353859e0a52e6f582)
+        ;
+
+        
+    
+    
+            var rectangle_1af8b3fe4fa8f67da4aaad2d685d9477 = L.rectangle(
+                [[55.66000747680664, 12.530001640319824], [55.67000198364258, 12.539996147155762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9000ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_649eeeb66dc01bfed7f057821ba0de02 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_354031779ac25b0697b3ea2bbf2a8c83 = $(`<div id="html_354031779ac25b0697b3ea2bbf2a8c83" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>71.0%</b><br>     LST: 24.51 °C     </div>`)[0];
+                popup_649eeeb66dc01bfed7f057821ba0de02.setContent(html_354031779ac25b0697b3ea2bbf2a8c83);
+            
+        
+
+        rectangle_1af8b3fe4fa8f67da4aaad2d685d9477.bindPopup(popup_649eeeb66dc01bfed7f057821ba0de02)
+        ;
+
+        
+    
+    
+            var rectangle_5680c2ca328c1cd702231517438bd47f = L.rectangle(
+                [[55.66000747680664, 12.539996147155762], [55.67000198364258, 12.5499906539917]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff3900ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_f2ca0d519ffc658d48ec3525f641f6b0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a054258eb871fe1fc5f7a4e5d245d732 = $(`<div id="html_a054258eb871fe1fc5f7a4e5d245d732" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>88.5%</b><br>     LST: 25.16 °C     </div>`)[0];
+                popup_f2ca0d519ffc658d48ec3525f641f6b0.setContent(html_a054258eb871fe1fc5f7a4e5d245d732);
+            
+        
+
+        rectangle_5680c2ca328c1cd702231517438bd47f.bindPopup(popup_f2ca0d519ffc658d48ec3525f641f6b0)
+        ;
+
+        
+    
+    
+            var rectangle_e64fb91dcdd851038cc6c911463412cf = L.rectangle(
+                [[55.66000747680664, 12.550005912780762], [55.67000198364258, 12.5600004196167]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff3300ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_1a3f88e159c961b5f0918093e699d757 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e87658d60865683e17d88fa411893e8f = $(`<div id="html_e87658d60865683e17d88fa411893e8f" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>89.7%</b><br>     LST: 27.07 °C     </div>`)[0];
+                popup_1a3f88e159c961b5f0918093e699d757.setContent(html_e87658d60865683e17d88fa411893e8f);
+            
+        
+
+        rectangle_e64fb91dcdd851038cc6c911463412cf.bindPopup(popup_1a3f88e159c961b5f0918093e699d757)
+        ;
+
+        
+    
+    
+            var rectangle_24b29f79c4e1baed478a28ae82fb1cc1 = L.rectangle(
+                [[55.66000747680664, 12.5600004196167], [55.67000198364258, 12.569994926452637]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6d00ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_aa7e3c1ceaf930d6704392a65de66753 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6ae10682570d69d0c315e4cff084d822 = $(`<div id="html_6ae10682570d69d0c315e4cff084d822" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>78.1%</b><br>     LST: 28.11 °C     </div>`)[0];
+                popup_aa7e3c1ceaf930d6704392a65de66753.setContent(html_6ae10682570d69d0c315e4cff084d822);
+            
+        
+
+        rectangle_24b29f79c4e1baed478a28ae82fb1cc1.bindPopup(popup_aa7e3c1ceaf930d6704392a65de66753)
+        ;
+
+        
+    
+    
+            var rectangle_1ee215ab4b57fba06c81aeeadf1ff221 = L.rectangle(
+                [[55.67000198364258, 12.50000286102295], [55.679996490478516, 12.509997367858887]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbc00ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_6f5c0c299f85a7ea053ab17eaa3e1690 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ab40f63134c711e3864eb7a507293e23 = $(`<div id="html_ab40f63134c711e3864eb7a507293e23" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>58.3%</b><br>     LST: 23.33 °C     </div>`)[0];
+                popup_6f5c0c299f85a7ea053ab17eaa3e1690.setContent(html_ab40f63134c711e3864eb7a507293e23);
+            
+        
+
+        rectangle_1ee215ab4b57fba06c81aeeadf1ff221.bindPopup(popup_6f5c0c299f85a7ea053ab17eaa3e1690)
+        ;
+
+        
+    
+    
+            var rectangle_3c24ca9f86517c22e5183d94d350ed2a = L.rectangle(
+                [[55.67000198364258, 12.509997367858887], [55.679996490478516, 12.519991874694824]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd300ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_229655024e8f65639971632d5db9571f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b8b4a1449287a5c00c53adfe5ee8a3d9 = $(`<div id="html_b8b4a1449287a5c00c53adfe5ee8a3d9" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>49.6%</b><br>     LST: 23.35 °C     </div>`)[0];
+                popup_229655024e8f65639971632d5db9571f.setContent(html_b8b4a1449287a5c00c53adfe5ee8a3d9);
+            
+        
+
+        rectangle_3c24ca9f86517c22e5183d94d350ed2a.bindPopup(popup_229655024e8f65639971632d5db9571f)
+        ;
+
+        
+    
+    
+            var rectangle_0692ecd6a1b3c471abbea90a82b93135 = L.rectangle(
+                [[55.67000198364258, 12.519991874694824], [55.679996490478516, 12.529986381530762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff600ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_8be26a410e1fe990e6d34530347e80ac = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_790f13e661bc99f91fcd47ec7a75f7a4 = $(`<div id="html_790f13e661bc99f91fcd47ec7a75f7a4" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>36.9%</b><br>     LST: 23.99 °C     </div>`)[0];
+                popup_8be26a410e1fe990e6d34530347e80ac.setContent(html_790f13e661bc99f91fcd47ec7a75f7a4);
+            
+        
+
+        rectangle_0692ecd6a1b3c471abbea90a82b93135.bindPopup(popup_8be26a410e1fe990e6d34530347e80ac)
+        ;
+
+        
+    
+    
+            var rectangle_91afe602affc0c9e9da687f8057dd21e = L.rectangle(
+                [[55.67000198364258, 12.530001640319824], [55.679996490478516, 12.539996147155762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9600ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_e306aef01b2d78b44a018a49b384acda = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_16d8814c9255e51c339ab27a42ff9013 = $(`<div id="html_16d8814c9255e51c339ab27a42ff9013" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>69.7%</b><br>     LST: 24.57 °C     </div>`)[0];
+                popup_e306aef01b2d78b44a018a49b384acda.setContent(html_16d8814c9255e51c339ab27a42ff9013);
+            
+        
+
+        rectangle_91afe602affc0c9e9da687f8057dd21e.bindPopup(popup_e306aef01b2d78b44a018a49b384acda)
+        ;
+
+        
+    
+    
+            var rectangle_4e0e0a0cef7fdfb5e1cb8acd5abdb809 = L.rectangle(
+                [[55.67000198364258, 12.539996147155762], [55.679996490478516, 12.5499906539917]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7b00ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_e7772a0e4ea96b1d21d4d9c85ab67ed8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0a59ccc1527fce60e891a0fe5077fea9 = $(`<div id="html_0a59ccc1527fce60e891a0fe5077fea9" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>75.2%</b><br>     LST: 25.43 °C     </div>`)[0];
+                popup_e7772a0e4ea96b1d21d4d9c85ab67ed8.setContent(html_0a59ccc1527fce60e891a0fe5077fea9);
+            
+        
+
+        rectangle_4e0e0a0cef7fdfb5e1cb8acd5abdb809.bindPopup(popup_e7772a0e4ea96b1d21d4d9c85ab67ed8)
+        ;
+
+        
+    
+    
+            var rectangle_ab9ed5afc487a3ee42440bfbda43f4e6 = L.rectangle(
+                [[55.67000198364258, 12.550005912780762], [55.679996490478516, 12.5600004196167]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9500ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_c376b544462507c95670e18aab322561 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_19ad0ec80a958638260807787a775d4f = $(`<div id="html_19ad0ec80a958638260807787a775d4f" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>70.0%</b><br>     LST: 28.61 °C     </div>`)[0];
+                popup_c376b544462507c95670e18aab322561.setContent(html_19ad0ec80a958638260807787a775d4f);
+            
+        
+
+        rectangle_ab9ed5afc487a3ee42440bfbda43f4e6.bindPopup(popup_c376b544462507c95670e18aab322561)
+        ;
+
+        
+    
+    
+            var rectangle_b457eb707b3042097f7a99deb7f2a167 = L.rectangle(
+                [[55.67000198364258, 12.5600004196167], [55.679996490478516, 12.569994926452637]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1d00ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_9a93f0e49063f6a582cf6561beaec388 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fcbca0e0422b7ae02c3ec654d3fe4340 = $(`<div id="html_fcbca0e0422b7ae02c3ec654d3fe4340" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>94.0%</b><br>     LST: 27.70 °C     </div>`)[0];
+                popup_9a93f0e49063f6a582cf6561beaec388.setContent(html_fcbca0e0422b7ae02c3ec654d3fe4340);
+            
+        
+
+        rectangle_b457eb707b3042097f7a99deb7f2a167.bindPopup(popup_9a93f0e49063f6a582cf6561beaec388)
+        ;
+
+        
+    
+    
+            var rectangle_30c4a816799175daadc4042f19213276 = L.rectangle(
+                [[55.679996490478516, 12.50000286102295], [55.68999099731445, 12.509997367858887]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffad00ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_ef47e71dfb38a4d683e0ed82dface85f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dec6e1ec37bf55861378e4422e208608 = $(`<div id="html_dec6e1ec37bf55861378e4422e208608" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>63.8%</b><br>     LST: 23.92 °C     </div>`)[0];
+                popup_ef47e71dfb38a4d683e0ed82dface85f.setContent(html_dec6e1ec37bf55861378e4422e208608);
+            
+        
+
+        rectangle_30c4a816799175daadc4042f19213276.bindPopup(popup_ef47e71dfb38a4d683e0ed82dface85f)
+        ;
+
+        
+    
+    
+            var rectangle_a15ccbcaae18e412c80a11e0d1f26956 = L.rectangle(
+                [[55.679996490478516, 12.509997367858887], [55.68999099731445, 12.519991874694824]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffae00ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_69718072211a3eff4328a4e9fc360728 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0f626596af61c860e70db2b6fa6a0f04 = $(`<div id="html_0f626596af61c860e70db2b6fa6a0f04" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>63.3%</b><br>     LST: 23.85 °C     </div>`)[0];
+                popup_69718072211a3eff4328a4e9fc360728.setContent(html_0f626596af61c860e70db2b6fa6a0f04);
+            
+        
+
+        rectangle_a15ccbcaae18e412c80a11e0d1f26956.bindPopup(popup_69718072211a3eff4328a4e9fc360728)
+        ;
+
+        
+    
+    
+            var rectangle_f6fa3bb14d23ea3b0961e3b6cd4607e2 = L.rectangle(
+                [[55.679996490478516, 12.519991874694824], [55.68999099731445, 12.529986381530762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7000ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_2c1a68221271e450b8f8f15886255aa5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_64b530794c87dcc92dd1489f6263786d = $(`<div id="html_64b530794c87dcc92dd1489f6263786d" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>77.4%</b><br>     LST: 23.86 °C     </div>`)[0];
+                popup_2c1a68221271e450b8f8f15886255aa5.setContent(html_64b530794c87dcc92dd1489f6263786d);
+            
+        
+
+        rectangle_f6fa3bb14d23ea3b0961e3b6cd4607e2.bindPopup(popup_2c1a68221271e450b8f8f15886255aa5)
+        ;
+
+        
+    
+    
+            var rectangle_aba26615f199aad9921004961e783cd1 = L.rectangle(
+                [[55.679996490478516, 12.530001640319824], [55.68999099731445, 12.539996147155762]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6400ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_23117c6fd03baea6ab23cbd39300d8b6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d3161ed0d3788fa4f45647b333b05f9b = $(`<div id="html_d3161ed0d3788fa4f45647b333b05f9b" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>79.7%</b><br>     LST: 25.89 °C     </div>`)[0];
+                popup_23117c6fd03baea6ab23cbd39300d8b6.setContent(html_d3161ed0d3788fa4f45647b333b05f9b);
+            
+        
+
+        rectangle_aba26615f199aad9921004961e783cd1.bindPopup(popup_23117c6fd03baea6ab23cbd39300d8b6)
+        ;
+
+        
+    
+    
+            var rectangle_d0d92a8fc1f8f21767653da4ba05920a = L.rectangle(
+                [[55.679996490478516, 12.539996147155762], [55.68999099731445, 12.5499906539917]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8f00ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_5556f5cfa3c60ccda5b6a2786ca1e55e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f48d9c45a9dd2240e22ddd175967970c = $(`<div id="html_f48d9c45a9dd2240e22ddd175967970c" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>71.2%</b><br>     LST: 26.64 °C     </div>`)[0];
+                popup_5556f5cfa3c60ccda5b6a2786ca1e55e.setContent(html_f48d9c45a9dd2240e22ddd175967970c);
+            
+        
+
+        rectangle_d0d92a8fc1f8f21767653da4ba05920a.bindPopup(popup_5556f5cfa3c60ccda5b6a2786ca1e55e)
+        ;
+
+        
+    
+    
+            var rectangle_f58cb07b22218f08745994e9e4bf21ee = L.rectangle(
+                [[55.679996490478516, 12.550005912780762], [55.68999099731445, 12.5600004196167]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9800ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_c547ef56412710fa05e136edf8656960 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_bb9fb83baae51fe135b876fbea56d978 = $(`<div id="html_bb9fb83baae51fe135b876fbea56d978" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>69.3%</b><br>     LST: 26.30 °C     </div>`)[0];
+                popup_c547ef56412710fa05e136edf8656960.setContent(html_bb9fb83baae51fe135b876fbea56d978);
+            
+        
+
+        rectangle_f58cb07b22218f08745994e9e4bf21ee.bindPopup(popup_c547ef56412710fa05e136edf8656960)
+        ;
+
+        
+    
+    
+            var rectangle_c0c3e643cb0d8ad7bea0b707e4510602 = L.rectangle(
+                [[55.679996490478516, 12.5600004196167], [55.68999099731445, 12.569994926452637]],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb400ff", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f);
+        
+    
+        var popup_2909c08b3625c375c737e42c13e091ce = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7493ee08ad9eae7a4f9c1b42c83bd84b = $(`<div id="html_7493ee08ad9eae7a4f9c1b42c83bd84b" style="width: 100.0%; height: 100.0%;">     <b>Built-up area</b><br><br>     Built-up: <b>61.0%</b><br>     LST: 25.27 °C     </div>`)[0];
+                popup_2909c08b3625c375c737e42c13e091ce.setContent(html_7493ee08ad9eae7a4f9c1b42c83bd84b);
+            
+        
+
+        rectangle_c0c3e643cb0d8ad7bea0b707e4510602.bindPopup(popup_2909c08b3625c375c737e42c13e091ce)
+        ;
+
+        
+    
+    
+            var layer_control_ef34a9a8da42f7247dc2cdb266f6209d_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3192741a0c863dfd712f842e1a9e2c93,
+                },
+                overlays :  {
+                    "\ud83c\udf21\ufe0f Land Surface Temperature" : feature_group_8380893c6e59a610a47ed88f41bcacd0,
+                    "\ud83c\udfd9\ufe0f Built-up percentage" : feature_group_32ec8bbf2ff44a2d3c9adbc96227a95f,
+                },
+            };
+            let layer_control_ef34a9a8da42f7247dc2cdb266f6209d = L.control.layers(
+                layer_control_ef34a9a8da42f7247dc2cdb266f6209d_layers.base_layers,
+                layer_control_ef34a9a8da42f7247dc2cdb266f6209d_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_e67633ebc6f9d2f7aafca1de10bb0d38);
+
+        
+</script>
+</html>

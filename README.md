@@ -13,3 +13,8 @@ UV Install: https://docs.astral.sh/uv/getting-started/installation/#installation
 - Insert "uv sync"
 - Fill out ".env_example"
 - Rename ".env_example" to ".env"
+
+
+
+### Datasets
+- https://cds.climate.copernicus.eu/datasets/satellite-land-surface-temperature?tab=overview

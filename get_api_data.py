@@ -1,10 +1,6 @@
-"""
-Pull CAMS solar radiation time series for Copenhagen from the Copernicus
-Atmosphere Data Store (ADS), using plain `requests` (no cdsapi library).
-
-Fill in API_KEY below, then run:
-    python get_copenhagen_solar.py
-"""
+import os
+import time
+import requests
 
 
 try:
@@ -13,89 +9,123 @@ try:
 
     if not load_dotenv():
         load_dotenv(find_dotenv())
+
+
+    HOST = os.getenv("HOST")
+    if HOST is None:
+        print("Variables not found. Check .env")
+
+    else:
+        PORT = os.getenv("PORT")
+        USERNAME = os.getenv("USERNAME")
+        PASSWORD = os.getenv("PASSWORD")
+        DATABASE = os.getenv("DATABASE")
+
 except:
-    print("Check your .env file")
+    print("Cant load env")
 
-import time
-import requests
+API_URL = "https://cds.climate.copernicus.eu/api"
+API_KEY = os.environ["API_KEY_ADS"]
 
-# ---- CONFIG ---------------------------------------------------------------
+DATASET = "satellite-land-surface-temperature"
 
-API_KEY = os.getenv("API_KEY_ADS")   # from https://ads.atmosphere.copernicus.eu/profile
-BASE_URL = "https://ads.atmosphere.copernicus.eu/api"
-DATASET = "cams-solar-radiation-timeseries"
-
-REQUEST_BODY = {
-    "inputs": {
-        "sky_type": "observed_cloud",          # or "clear_sky"
-        "location": {"latitude": 55.68, "longitude": 12.57},  # Copenhagen
-        "altitude": ["-999."],
-        "date": ["2024-01-01/2024-12-31"],     # edit date range as needed
-        "time_step": "1hour",
-        "time_reference": "universal_time",
-        "format": "csv",
-    }
+REQUEST = {
+    "variable": ["land_surface_temperature"],
+    "observation_time": ["day"],
+    "year": ["2020"],
+    "month": ["07"],
+    "version": ["v3_00"],
+    "area": [55.69, 12.5, 55.65, 12.57],
 }
 
-OUTPUT_FILE = "data/copenhagen_solar.csv"
 
-# ---- SCRIPT -----------------------------------------------------------------
-
-session = requests.Session()
-session.headers.update({
-    "PRIVATE-TOKEN": API_KEY,   # ADS uses this header for the API key
+headers = {
+    "Authorization": f"Bearer {API_KEY}",
     "Content-Type": "application/json",
-})
+}
 
 
-def submit_job():
-    url = f"{BASE_URL}/retrieve/v1/processes/{DATASET}/execution"
-    resp = session.post(url, json=REQUEST_BODY)
-    resp.raise_for_status()
-    data = resp.json()
-    job_id = data["jobID"]
-    print(f"Submitted job: {job_id}")
-    return job_id
+# --------------------------------------------------
+# 1. Submit job
+# --------------------------------------------------
+
+response = requests.post(
+    f"{API_URL}/retrieve/v1/jobs",
+    headers=headers,
+    json={
+        "dataset": DATASET,
+        "request": REQUEST,
+    },
+)
+
+response.raise_for_status()
+
+job = response.json()
+
+print("Job submitted:")
+print(job)
 
 
-def wait_for_job(job_id, poll_seconds=5, timeout_seconds=1800):
-    url = f"{BASE_URL}/retrieve/v1/jobs/{job_id}"
-    waited = 0
-    while waited < timeout_seconds:
-        resp = session.get(url)
-        resp.raise_for_status()
-        status = resp.json()["status"]
-        print(f"  status: {status} (waited {waited}s)")
-        if status == "successful":
-            return
-        if status in ("failed", "dismissed"):
-            raise RuntimeError(f"Job ended with status: {status}")
-        time.sleep(poll_seconds)
-        waited += poll_seconds
-    raise TimeoutError("Job did not finish within timeout")
+# --------------------------------------------------
+# 2. Get job ID
+# --------------------------------------------------
+
+job_id = job["job_id"]
+
+print(f"\nJob ID: {job_id}")
 
 
-def get_download_url(job_id):
-    url = f"{BASE_URL}/retrieve/v1/jobs/{job_id}/results"
-    resp = session.get(url)
-    resp.raise_for_status()
-    data = resp.json()
-    # result asset location is nested under "asset" -> "value" -> "href"
-    return data["asset"]["value"]["href"]
+# --------------------------------------------------
+# 3. Wait for job to finish
+# --------------------------------------------------
+
+while True:
+
+    response = requests.get(
+        f"{API_URL}/retrieve/v1/jobs/{job_id}",
+        headers=headers,
+    )
+
+    response.raise_for_status()
+
+    job_status = response.json()
+
+    state = job_status["status"]
+
+    print("Status:", state)
+
+    if state == "completed":
+        break
+
+    if state in ["failed", "cancelled"]:
+        raise RuntimeError(f"Job failed: {job_status}")
+
+    time.sleep(5)
 
 
-def download_file(file_url, output_path):
-    resp = session.get(file_url, stream=True)
-    resp.raise_for_status()
-    with open(output_path, "wb") as f:
-        for chunk in resp.iter_content(chunk_size=8192):
+# --------------------------------------------------
+# 4. Download result
+# --------------------------------------------------
+
+result_url = job_status["result"]["href"]
+
+print("Downloading:")
+print(result_url)
+
+response = requests.get(
+    result_url,
+    headers=headers,
+    stream=True,
+)
+
+response.raise_for_status()
+
+with open("lst_2020_07.nc", "wb") as f:
+
+    for chunk in response.iter_content(chunk_size=1024 * 1024):
+
+        if chunk:
             f.write(chunk)
-    print(f"Saved to {output_path}")
 
 
-if __name__ == "__main__":
-
-    job_id = submit_job()
-    wait_for_job(job_id)
-    file_url = get_download_url(job_id)
-    download_file(file_url, OUTPUT_FILE)
+print("\nSaved as lst_2020_07.nc")
