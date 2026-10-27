@@ -11,10 +11,5 @@ UV Install: https://docs.astral.sh/uv/getting-started/installation/#installation
 
 - Open terminal
 - Insert "uv sync"
-- Fill out ".env_example"
-- Rename ".env_example" to ".env"
+- run env_maker.py "python env_maker.py
 
-
-
-### Datasets
-- https://cds.climate.copernicus.eu/datasets/satellite-land-surface-temperature?tab=overview
