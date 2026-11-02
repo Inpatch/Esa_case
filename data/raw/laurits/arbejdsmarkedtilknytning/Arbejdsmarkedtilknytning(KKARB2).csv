@@ -1,0 +1,635 @@
+"Befolkningen efter tid, alder, distrikt og arbejdsmarkedstilknytning",,,,,,
+Enhed: Antal,,,,,,
+,,,Arbejdsmarkedstilknytning i alt,Beskæftigede,Ledige,Uden for arbejdsstyrken
+2024,Alder i alt,København i alt,667098,394080,12671,260347
+,,Bydel - Indre By,57426,33784,950,22692
+,,Bydel - Østerbro,81461,48907,1277,31277
+,,Bydel - Nørrebro,79766,48168,1966,29632
+,,Bydel - Vesterbro/Kongens Enghave,83235,52283,1722,29230
+,,Bydel - Valby,66471,39541,1239,25691
+,,Bydel - Vanløse,40809,23991,676,16142
+,,Bydel - Brønshøj-Husum,44527,23002,779,20746
+,,Bydel - Bispebjerg,55508,32017,1291,22200
+,,Bydel - Amager Øst,63079,38295,1194,23590
+,,Bydel - Amager Vest,90708,53183,1525,36000
+,,Lokaludvalg - Indre By,43950,26376,711,16863
+,,Lokaludvalg - Christianshavn,13476,7408,239,5829
+,,Lokaludvalg - Østerbro,81461,48907,1277,31277
+,,Lokaludvalg - Nørrebro,79766,48168,1966,29632
+,,Lokaludvalg - Vesterbro,48168,30933,938,16297
+,,Lokaludvalg - Kgs. Enghave,35067,21350,784,12933
+,,Lokaludvalg - Valby,66471,39541,1239,25691
+,,Lokaludvalg - Vanløse,40809,23991,676,16142
+,,Lokaludvalg - Brønshøj-Husum,44527,23002,779,20746
+,,Lokaludvalg - Bispebjerg,55508,32017,1291,22200
+,,Lokaludvalg - Amager Øst,63079,38295,1194,23590
+,,Lokaludvalg - Amager Vest,90708,53183,1525,36000
+,,Indre By - Middelalderbyen,8694,5587,137,2970
+,,Indre By - Metropolzonen,2920,1659,60,1201
+,,Indre By - Nansensgade-kvarteret,6742,4196,139,2407
+,,Indre By - Øster Farimagsgade-kvarteret,7318,4326,126,2866
+,,Indre By - Østerport,4560,2528,71,1961
+,,Indre By - Frederiksstaden,10389,6041,141,4207
+,,Indre By - Gammelholm og Nyhavn,3327,2039,37,1251
+,,Christianshavn - Neden Vandet,3231,1705,55,1471
+,,Christianshavn - Oven Vandet,6716,3696,128,2892
+,,Christianshavn - Holmen og Refshaleøen,3529,2007,56,1466
+,,Østerbro - Nord/Komponistkvarteret,3600,2248,62,1290
+,,Østerbro - Svanemøllen Syd/Øst,10694,6194,184,4316
+,,Østerbro - Århusgade Nord,9424,6186,177,3061
+,,Østerbro - Århusgade Syd,11928,7529,168,4231
+,,Østerbro - Rosenvænget,10123,6124,157,3842
+,,Østerbro - Ny Ryvang,3148,1506,55,1587
+,,Østerbro - Nord,4954,2458,68,2428
+,,Østerbro - Nordhavn,6442,4098,64,2280
+,,Østerbro - Lyngbyvej Vest,5360,3012,73,2275
+,,Østerbro - Lyngbyvej Øst/Klimakvarteret,7332,4632,138,2562
+,,Østerbro - Fælled,8456,4920,131,3405
+,,Nørrebro - Blågårdskvarteret/Assistens/Rantzausgade,14785,8558,370,5857
+,,Nørrebro - Guldbergskvarteret/Panum/Ravnsborggade,19807,11676,502,7629
+,,Nørrebro - Stefansgade/Nørrebroparken/Lundtoftegade,17824,11092,429,6303
+,,Nørrebro - Mimersgade-kvarteret/ Nørrebro St.,17084,10852,446,5786
+,,Nørrebro - Haraldsgade-kvarteret,10266,5990,219,4057
+,,Vesterbro - Vest,12483,7708,202,4573
+,,Vesterbro - Central,23044,14849,493,7702
+,,Vesterbro - Øst,7827,5062,169,2596
+,,Vesterbro - Syd,4814,3314,74,1426
+,,Kgs. Enghave - Bavnehøj,4012,2164,86,1762
+,,Kgs. Enghave - Gl. Sydhavn,14249,7819,368,6062
+,,Kgs. Enghave - Holmene,16806,11367,330,5109
+,,Valby - Gl. Valby,12462,7840,228,4394
+,,Valby - Syd,21492,12714,435,8343
+,,Valby - Ålholm,9852,5731,165,3956
+,,Valby - Valby Sydvest,15489,9222,284,5983
+,,Valby - Vigerslev,7176,4034,127,3015
+,,Vanløse - Jyllingevej Kvarter,11887,6630,159,5098
+,,Vanløse - Jernbane Allé Kvarter,14005,8504,250,5251
+,,Vanløse - Sallingvej Kvarter,9565,5819,171,3575
+,,Vanløse - Grøndals Park Kvarter,5352,3038,96,2218
+,,Brønshøj-Husum - Husum,15883,8531,258,7094
+,,Brønshøj-Husum - Husum Nord,8940,4324,187,4429
+,,Brønshøj-Husum - Tingbjerg,5219,2291,112,2816
+,,Brønshøj-Husum - Brønshøj,10602,6065,162,4375
+,,Brønshøj-Husum - Bellahøj,3883,1791,60,2032
+,,Bispebjerg - Emdrup,4348,2132,87,2129
+,,Bispebjerg- Ryparken-Lundehus,6556,3354,135,3067
+,,Bispebjerg - Bispebjerg,6246,3303,127,2816
+,,Bispebjerg - Utterslev,5966,3243,132,2591
+,,Bispebjerg - Nordvest,32392,19985,810,11597
+,,Amager Øst - Amagerbro Øst,23503,14396,521,8586
+,,Amager Øst - Sundbyøster,14328,8710,277,5341
+,,Amager Øst - Villakvartererne,15491,9114,210,6167
+,,Amager Øst - Nordøstamager,9757,6075,186,3496
+,,Amager Vest - Amagerbro Vest,7040,4471,145,2424
+,,Amager Vest - Bryggen Syd,5643,3330,81,2232
+,,Amager Vest - Faste Batteri,5218,3165,82,1971
+,,Amager Vest - Gamle Bryggen,7704,4809,138,2757
+,,Amager Vest - Grønjordssøen (Ørestad Nord og Vejlandskvarter),3663,2152,40,1471
+,,Amager Vest - Kolonihavekvarteret,6050,3177,72,2801
+,,Amager Vest - Sundbyvester,13197,7405,207,5585
+,,Amager Vest - Sundholmsvejs kvarteret,11919,6553,238,5128
+,,Amager Vest - Urbanplanen,4540,1990,75,2475
+,,Amager Vest - Ørestad City,11519,7454,229,3836
+,,Amager Vest - Ørestad Syd,14215,8677,218,5320
+,24 år og derunder,København i alt,187030,61051,368,125611
+,,Bydel - Indre By,14975,5444,24,9507
+,,Bydel - Østerbro,21878,7344,34,14500
+,,Bydel - Nørrebro,22076,7670,52,14354
+,,Bydel - Vesterbro/Kongens Enghave,22682,7484,50,15148
+,,Bydel - Valby,20259,6978,43,13238
+,,Bydel - Vanløse,11449,3541,14,7894
+,,Bydel - Brønshøj-Husum,14303,3810,23,10470
+,,Bydel - Bispebjerg,14099,4487,31,9581
+,,Bydel - Amager Øst,17243,5794,33,11416
+,,Bydel - Amager Vest,27435,8421,62,18952
+,,Lokaludvalg - Indre By,11604,4416,18,7170
+,,Lokaludvalg - Christianshavn,3371,1028,6,2337
+,,Lokaludvalg - Østerbro,21878,7344,34,14500
+,,Lokaludvalg - Nørrebro,22076,7670,52,14354
+,,Lokaludvalg - Vesterbro,13445,4222,12,9211
+,,Lokaludvalg - Kgs. Enghave,9237,3262,38,5937
+,,Lokaludvalg - Valby,20259,6978,43,13238
+,,Lokaludvalg - Vanløse,11449,3541,14,7894
+,,Lokaludvalg - Brønshøj-Husum,14303,3810,23,10470
+,,Lokaludvalg - Bispebjerg,14099,4487,31,9581
+,,Lokaludvalg - Amager Øst,17243,5794,33,11416
+,,Lokaludvalg - Amager Vest,27435,8421,62,18952
+,,Indre By - Middelalderbyen,2373,1152,4,1217
+,,Indre By - Metropolzonen,683,250,8,425
+,,Indre By - Nansensgade-kvarteret,1897,..,..,1182
+,,Indre By - Øster Farimagsgade-kvarteret,2093,..,..,1410
+,,Indre By - Østerport,1162,..,..,821
+,,Indre By - Frederiksstaden,2600,..,..,1627
+,,Indre By - Gammelholm og Nyhavn,796,..,..,488
+,,Christianshavn - Neden Vandet,672,176,3,493
+,,Christianshavn - Oven Vandet,1521,..,..,1023
+,,Christianshavn - Holmen og Refshaleøen,1178,..,..,821
+,,Østerbro - Nord/Komponistkvarteret,1009,306,0,703
+,,Østerbro - Svanemøllen Syd/Øst,2579,909,3,1667
+,,Østerbro - Århusgade Nord,2472,1013,4,1455
+,,Østerbro - Århusgade Syd,3349,1149,4,2196
+,,Østerbro - Rosenvænget,2925,964,9,1952
+,,Østerbro - Ny Ryvang,863,..,..,634
+,,Østerbro - Nord,1212,..,..,919
+,,Østerbro - Nordhavn,1794,..,..,1322
+,,Østerbro - Lyngbyvej Vest,1412,..,..,973
+,,Østerbro - Lyngbyvej Øst/Klimakvarteret,1951,712,6,1233
+,,Østerbro - Fælled,2312,..,..,1446
+,,Nørrebro - Blågårdskvarteret/Assistens/Rantzausgade,4130,1295,6,2829
+,,Nørrebro - Guldbergskvarteret/Panum/Ravnsborggade,5593,2008,19,3566
+,,Nørrebro - Stefansgade/Nørrebroparken/Lundtoftegade,4738,1511,8,3219
+,,Nørrebro - Mimersgade-kvarteret/ Nørrebro St.,4610,1747,12,2851
+,,Nørrebro - Haraldsgade-kvarteret,3005,1109,7,1889
+,,Vesterbro - Vest,3762,944,6,2812
+,,Vesterbro - Central,6513,2119,6,4388
+,,Vesterbro - Øst,2141,814,0,1327
+,,Vesterbro - Syd,1029,345,0,684
+,,Kgs. Enghave - Bavnehøj,1005,396,3,606
+,,Kgs. Enghave - Gl. Sydhavn,3736,1426,20,2290
+,,Kgs. Enghave - Holmene,4496,1440,15,3041
+,,Valby - Gl. Valby,3467,1291,8,2168
+,,Valby - Syd,6361,2080,23,4258
+,,Valby - Ålholm,2951,..,..,1992
+,,Valby - Valby Sydvest,5389,1963,6,3420
+,,Valby - Vigerslev,2091,687,4,1400
+,,Vanløse - Jyllingevej Kvarter,3810,1044,3,2763
+,,Vanløse - Jernbane Allé Kvarter,3508,1278,8,2222
+,,Vanløse - Sallingvej Kvarter,2575,..,..,1764
+,,Vanløse - Grøndals Park Kvarter,1556,..,..,1145
+,,Brønshøj-Husum - Husum,4858,1247,6,3605
+,,Brønshøj-Husum - Husum Nord,2953,906,5,2042
+,,Brønshøj-Husum - Tingbjerg,1969,484,5,1480
+,,Brønshøj-Husum - Brønshøj,3286,819,3,2464
+,,Brønshøj-Husum - Bellahøj,1237,354,4,879
+,,Bispebjerg - Emdrup,1189,..,..,901
+,,Bispebjerg- Ryparken-Lundehus,1816,498,5,1313
+,,Bispebjerg - Bispebjerg,1543,..,..,1091
+,,Bispebjerg - Utterslev,1615,..,..,1195
+,,Bispebjerg - Nordvest,7936,2835,20,5081
+,,Amager Øst - Amagerbro Øst,6255,2431,10,3814
+,,Amager Øst - Sundbyøster,3595,1286,10,2299
+,,Amager Øst - Villakvartererne,4746,1421,9,3316
+,,Amager Øst - Nordøstamager,2647,656,4,1987
+,,Amager Vest - Amagerbro Vest,1820,673,3,1144
+,,Amager Vest - Bryggen Syd,1669,..,..,1434
+,,Amager Vest - Faste Batteri,1510,..,..,1045
+,,Amager Vest - Gamle Bryggen,2034,..,..,1445
+,,Amager Vest - Grønjordssøen (Ørestad Nord og Vejlandskvarter),1368,..,..,863
+,,Amager Vest - Kolonihavekvarteret,2294,737,4,1553
+,,Amager Vest - Sundbyvester,4078,1119,8,2951
+,,Amager Vest - Sundholmsvejs kvarteret,3322,1170,7,2145
+,,Amager Vest - Urbanplanen,1166,..,..,834
+,,Amager Vest - Ørestad City,3459,1213,16,2230
+,,Amager Vest - Ørestad Syd,4715,1391,16,3308
+,25-34 år,København i alt,171176,136417,5667,29092
+,,Bydel - Indre By,13421,10317,425,2679
+,,Bydel - Østerbro,19672,16126,548,2998
+,,Bydel - Nørrebro,24933,19956,963,4014
+,,Bydel - Vesterbro/Kongens Enghave,23026,18913,741,3372
+,,Bydel - Valby,16927,13806,566,2555
+,,Bydel - Vanløse,8639,7155,282,1202
+,,Bydel - Brønshøj-Husum,7060,5360,259,1441
+,,Bydel - Bispebjerg,16749,13280,656,2813
+,,Bydel - Amager Øst,17005,13679,573,2753
+,,Bydel - Amager Vest,22286,17497,633,4156
+,,Lokaludvalg - Indre By,10839,8349,325,2165
+,,Lokaludvalg - Christianshavn,2582,1968,100,514
+,,Lokaludvalg - Østerbro,19672,16126,548,2998
+,,Lokaludvalg - Nørrebro,24933,19956,963,4014
+,,Lokaludvalg - Vesterbro,12400,10354,373,1673
+,,Lokaludvalg - Kgs. Enghave,10626,8559,368,1699
+,,Lokaludvalg - Valby,16927,13806,566,2555
+,,Lokaludvalg - Vanløse,8639,7155,282,1202
+,,Lokaludvalg - Brønshøj-Husum,7060,5360,259,1441
+,,Lokaludvalg - Bispebjerg,16749,13280,656,2813
+,,Lokaludvalg - Amager Øst,17005,13679,573,2753
+,,Lokaludvalg - Amager Vest,22286,17497,633,4156
+,,Indre By - Middelalderbyen,2718,2083,75,560
+,,Indre By - Metropolzonen,688,506,25,157
+,,Indre By - Nansensgade-kvarteret,1612,1290,65,257
+,,Indre By - Øster Farimagsgade-kvarteret,1398,1102,54,242
+,,Indre By - Østerport,852,649,32,171
+,,Indre By - Frederiksstaden,2899,2205,56,638
+,,Indre By - Gammelholm og Nyhavn,672,514,18,140
+,,Christianshavn - Neden Vandet,547,415,21,111
+,,Christianshavn - Oven Vandet,1419,1102,55,262
+,,Christianshavn - Holmen og Refshaleøen,616,451,24,141
+,,Østerbro - Nord/Komponistkvarteret,889,749,31,109
+,,Østerbro - Svanemøllen Syd/Øst,2904,2280,75,549
+,,Østerbro - Århusgade Nord,3021,2561,88,372
+,,Østerbro - Århusgade Syd,2754,2296,80,378
+,,Østerbro - Rosenvænget,2175,1765,54,356
+,,Østerbro - Ny Ryvang,655,478,22,155
+,,Østerbro - Nord,668,522,19,127
+,,Østerbro - Nordhavn,1406,1222,17,167
+,,Østerbro - Lyngbyvej Vest,1369,1101,37,231
+,,Østerbro - Lyngbyvej Øst/Klimakvarteret,2117,1763,70,284
+,,Østerbro - Fælled,1714,1389,55,270
+,,Nørrebro - Blågårdskvarteret/Assistens/Rantzausgade,3968,3125,164,679
+,,Nørrebro - Guldbergskvarteret/Panum/Ravnsborggade,5731,4485,232,1014
+,,Nørrebro - Stefansgade/Nørrebroparken/Lundtoftegade,5677,4641,215,821
+,,Nørrebro - Mimersgade-kvarteret/ Nørrebro St.,6217,5079,229,909
+,,Nørrebro - Haraldsgade-kvarteret,3340,2626,123,591
+,,Vesterbro - Vest,2817,2385,75,357
+,,Vesterbro - Central,5895,4967,185,743
+,,Vesterbro - Øst,2148,1737,79,332
+,,Vesterbro - Syd,1540,1265,34,241
+,,Kgs. Enghave - Bavnehøj,1335,1005,37,293
+,,Kgs. Enghave - Gl. Sydhavn,3498,2710,142,646
+,,Kgs. Enghave - Holmene,5793,4844,189,760
+,,Valby - Gl. Valby,3425,2825,107,493
+,,Valby - Syd,5587,4558,207,822
+,,Valby - Ålholm,2001,1666,64,271
+,,Valby - Valby Sydvest,4277,3471,132,674
+,,Valby - Vigerslev,1637,1286,56,295
+,,Vanløse - Jyllingevej Kvarter,1615,1279,65,271
+,,Vanløse - Jernbane Allé Kvarter,3651,3059,116,476
+,,Vanløse - Sallingvej Kvarter,2280,1907,73,300
+,,Vanløse - Grøndals Park Kvarter,1093,910,28,155
+,,Brønshøj-Husum - Husum,2147,1641,88,418
+,,Brønshøj-Husum - Husum Nord,1536,1134,62,340
+,,Brønshøj-Husum - Tingbjerg,987,706,33,248
+,,Brønshøj-Husum - Brønshøj,1681,1358,59,264
+,,Brønshøj-Husum - Bellahøj,709,521,17,171
+,,Bispebjerg - Emdrup,754,525,35,194
+,,Bispebjerg- Ryparken-Lundehus,1404,1068,56,280
+,,Bispebjerg - Bispebjerg,1316,1036,47,233
+,,Bispebjerg - Utterslev,1399,1118,68,213
+,,Bispebjerg - Nordvest,11876,9533,450,1893
+,,Amager Øst - Amagerbro Øst,7422,5779,283,1360
+,,Amager Øst - Sundbyøster,3837,3203,128,506
+,,Amager Øst - Villakvartererne,3075,2472,71,532
+,,Amager Øst - Nordøstamager,2671,2225,91,355
+,,Amager Vest - Amagerbro Vest,1968,1621,62,285
+,,Amager Vest - Bryggen Syd,908,752,31,125
+,,Amager Vest - Faste Batteri,1559,1274,37,248
+,,Amager Vest - Gamle Bryggen,1644,1421,49,174
+,,Amager Vest - Grønjordssøen (Ørestad Nord og Vejlandskvarter),1092,771,17,304
+,,Amager Vest - Kolonihavekvarteret,1046,648,22,376
+,,Amager Vest - Sundbyvester,2176,1690,70,416
+,,Amager Vest - Sundholmsvejs kvarteret,3203,2465,101,637
+,,Amager Vest - Urbanplanen,678,455,34,189
+,,Amager Vest - Ørestad City,4024,3215,111,698
+,,Amager Vest - Ørestad Syd,3988,3185,99,704
+,35-44 år,København i alt,95797,77104,3022,15671
+,,Bydel - Indre By,6558,5113,183,1262
+,,Bydel - Østerbro,10129,8260,231,1638
+,,Bydel - Nørrebro,11921,9506,497,1918
+,,Bydel - Vesterbro/Kongens Enghave,13475,10989,434,2052
+,,Bydel - Valby,9360,7657,293,1410
+,,Bydel - Vanløse,5462,4601,172,689
+,,Bydel - Brønshøj-Husum,6482,5218,234,1030
+,,Bydel - Bispebjerg,8467,6622,316,1529
+,,Bydel - Amager Øst,8968,7372,244,1352
+,,Bydel - Amager Vest,14037,11525,402,2110
+,,Lokaludvalg - Indre By,4882,3766,141,975
+,,Lokaludvalg - Christianshavn,1676,1347,42,287
+,,Lokaludvalg - Østerbro,10129,8260,231,1638
+,,Lokaludvalg - Nørrebro,11921,9506,497,1918
+,,Lokaludvalg - Vesterbro,7858,6584,245,1029
+,,Lokaludvalg - Kgs. Enghave,5617,4405,189,1023
+,,Lokaludvalg - Valby,9360,7657,293,1410
+,,Lokaludvalg - Vanløse,5462,4601,172,689
+,,Lokaludvalg - Brønshøj-Husum,6482,5218,234,1030
+,,Lokaludvalg - Bispebjerg,8467,6622,316,1529
+,,Lokaludvalg - Amager Øst,8968,7372,244,1352
+,,Lokaludvalg - Amager Vest,14037,11525,402,2110
+,,Indre By - Middelalderbyen,976,703,23,250
+,,Indre By - Metropolzonen,342,..,..,82
+,,Indre By - Nansensgade-kvarteret,852,687,21,144
+,,Indre By - Øster Farimagsgade-kvarteret,855,686,31,138
+,,Indre By - Østerport,479,..,..,93
+,,Indre By - Frederiksstaden,984,770,35,179
+,,Indre By - Gammelholm og Nyhavn,394,..,..,89
+,,Christianshavn - Neden Vandet,380,288,11,81
+,,Christianshavn - Oven Vandet,796,625,16,155
+,,Christianshavn - Holmen og Refshaleøen,500,434,15,51
+,,Østerbro - Nord/Komponistkvarteret,469,387,9,73
+,,Østerbro - Svanemøllen Syd/Øst,1375,1094,41,240
+,,Østerbro - Århusgade Nord,1143,924,26,193
+,,Østerbro - Århusgade Syd,1371,1157,20,194
+,,Østerbro - Rosenvænget,1247,997,30,220
+,,Østerbro - Ny Ryvang,404,292,15,97
+,,Østerbro - Nord,504,395,13,96
+,,Østerbro - Nordhavn,1082,904,17,161
+,,Østerbro - Lyngbyvej Vest,707,601,12,94
+,,Østerbro - Lyngbyvej Øst/Klimakvarteret,921,763,27,131
+,,Østerbro - Fælled,906,746,21,139
+,,Nørrebro - Blågårdskvarteret/Assistens/Rantzausgade,2235,1711,97,427
+,,Nørrebro - Guldbergskvarteret/Panum/Ravnsborggade,2640,2112,118,410
+,,Nørrebro - Stefansgade/Nørrebroparken/Lundtoftegade,3017,2472,109,436
+,,Nørrebro - Mimersgade-kvarteret/ Nørrebro St.,2658,2138,126,394
+,,Nørrebro - Haraldsgade-kvarteret,1371,1073,47,251
+,,Vesterbro - Vest,2252,1954,58,240
+,,Vesterbro - Central,3547,2959,131,457
+,,Vesterbro - Øst,1163,919,37,207
+,,Vesterbro - Syd,896,752,19,125
+,,Kgs. Enghave - Bavnehøj,522,346,20,156
+,,Kgs. Enghave - Gl. Sydhavn,2070,1535,95,440
+,,Kgs. Enghave - Holmene,3025,2524,74,427
+,,Valby - Gl. Valby,1565,1319,30,216
+,,Valby - Syd,3180,2575,101,504
+,,Valby - Ålholm,1292,1078,40,174
+,,Valby - Valby Sydvest,2307,1881,85,341
+,,Valby - Vigerslev,1016,804,37,175
+,,Vanløse - Jyllingevej Kvarter,1634,1405,39,190
+,,Vanløse - Jernbane Allé Kvarter,1754,1420,62,272
+,,Vanløse - Sallingvej Kvarter,1295,1119,37,139
+,,Vanløse - Grøndals Park Kvarter,779,657,34,88
+,,Brønshøj-Husum - Husum,2363,1976,69,318
+,,Brønshøj-Husum - Husum Nord,1315,979,62,274
+,,Brønshøj-Husum - Tingbjerg,694,508,41,145
+,,Brønshøj-Husum - Brønshøj,1587,1401,42,144
+,,Brønshøj-Husum - Bellahøj,523,354,20,149
+,,Bispebjerg - Emdrup,603,463,25,115
+,,Bispebjerg- Ryparken-Lundehus,894,688,30,176
+,,Bispebjerg - Bispebjerg,873,702,36,135
+,,Bispebjerg - Utterslev,904,722,23,159
+,,Bispebjerg - Nordvest,5193,4047,202,944
+,,Amager Øst - Amagerbro Øst,3121,2497,100,524
+,,Amager Øst - Sundbyøster,1950,1589,59,302
+,,Amager Øst - Villakvartererne,2104,1760,43,301
+,,Amager Øst - Nordøstamager,1793,1526,42,225
+,,Amager Vest - Amagerbro Vest,970,822,46,102
+,,Amager Vest - Bryggen Syd,1024,887,17,120
+,,Amager Vest - Faste Batteri,696,594,20,82
+,,Amager Vest - Gamle Bryggen,1158,987,41,130
+,,Amager Vest - Grønjordssøen (Ørestad Nord og Vejlandskvarter),477,411,9,57
+,,Amager Vest - Kolonihavekvarteret,812,647,20,145
+,,Amager Vest - Sundbyvester,1793,1536,51,206
+,,Amager Vest - Sundholmsvejs kvarteret,1558,1145,61,352
+,,Amager Vest - Urbanplanen,582,417,20,145
+,,Amager Vest - Ørestad City,2106,1736,57,313
+,,Amager Vest - Ørestad Syd,2861,2343,60,458
+,45-54 år,København i alt,77822,62458,1933,13431
+,,Bydel - Indre By,6960,5691,148,1121
+,,Bydel - Østerbro,9678,8008,238,1432
+,,Bydel - Nørrebro,7889,6000,258,1631
+,,Bydel - Vesterbro/Kongens Enghave,10670,8560,296,1814
+,,Bydel - Valby,7524,6151,167,1206
+,,Bydel - Vanløse,5214,4463,107,644
+,,Bydel - Brønshøj-Husum,5593,4431,128,1034
+,,Bydel - Bispebjerg,5492,3935,152,1405
+,,Bydel - Amager Øst,7474,6220,194,1060
+,,Bydel - Amager Vest,10736,8848,237,1651
+,,Lokaludvalg - Indre By,5360,4387,116,857
+,,Lokaludvalg - Christianshavn,1600,1304,32,264
+,,Lokaludvalg - Østerbro,9678,8008,238,1432
+,,Lokaludvalg - Nørrebro,7889,6000,258,1631
+,,Lokaludvalg - Vesterbro,6862,5750,183,929
+,,Lokaludvalg - Kgs. Enghave,3808,2810,113,885
+,,Lokaludvalg - Valby,7524,6151,167,1206
+,,Lokaludvalg - Vanløse,5214,4463,107,644
+,,Lokaludvalg - Brønshøj-Husum,5593,4431,128,1034
+,,Lokaludvalg - Bispebjerg,5492,3935,152,1405
+,,Lokaludvalg - Amager Øst,7474,6220,194,1060
+,,Lokaludvalg - Amager Vest,10736,8848,237,1651
+,,Indre By - Middelalderbyen,967,764,23,180
+,,Indre By - Metropolzonen,362,290,9,63
+,,Indre By - Nansensgade-kvarteret,901,749,26,126
+,,Indre By - Øster Farimagsgade-kvarteret,1036,872,20,144
+,,Indre By - Østerport,596,486,10,100
+,,Indre By - Frederiksstaden,1059,872,23,164
+,,Indre By - Gammelholm og Nyhavn,439,354,5,80
+,,Christianshavn - Neden Vandet,400,330,6,64
+,,Christianshavn - Oven Vandet,793,615,21,157
+,,Christianshavn - Holmen og Refshaleøen,407,359,5,43
+,,Østerbro - Nord/Komponistkvarteret,462,394,9,59
+,,Østerbro - Svanemøllen Syd/Øst,1118,858,37,223
+,,Østerbro - Århusgade Nord,982,806,29,147
+,,Østerbro - Århusgade Syd,1585,1397,28,160
+,,Østerbro - Rosenvænget,1345,1138,..,..
+,,Østerbro - Ny Ryvang,373,244,11,118
+,,Østerbro - Nord,677,534,15,128
+,,Østerbro - Nordhavn,850,710,17,123
+,,Østerbro - Lyngbyvej Vest,494,422,14,58
+,,Østerbro - Lyngbyvej Øst/Klimakvarteret,791,687,19,85
+,,Østerbro - Fælled,1001,818,27,156
+,,Nørrebro - Blågårdskvarteret/Assistens/Rantzausgade,1596,1230,54,312
+,,Nørrebro - Guldbergskvarteret/Panum/Ravnsborggade,2072,1617,71,384
+,,Nørrebro - Stefansgade/Nørrebroparken/Lundtoftegade,1806,1439,58,309
+,,Nørrebro - Mimersgade-kvarteret/ Nørrebro St.,1423,1063,47,313
+,,Nørrebro - Haraldsgade-kvarteret,992,651,28,313
+,,Vesterbro - Vest,1725,1463,..,..
+,,Vesterbro - Central,3465,2910,101,454
+,,Vesterbro - Øst,1083,907,27,149
+,,Vesterbro - Syd,589,470,11,108
+,,Kgs. Enghave - Bavnehøj,384,238,15,131
+,,Kgs. Enghave - Gl. Sydhavn,1670,1086,70,514
+,,Kgs. Enghave - Holmene,1754,1486,28,240
+,,Valby - Gl. Valby,1507,1276,40,191
+,,Valby - Syd,2497,2046,51,400
+,,Valby - Ålholm,1325,1115,28,182
+,,Valby - Valby Sydvest,1310,1030,31,249
+,,Valby - Vigerslev,885,684,17,184
+,,Vanløse - Jyllingevej Kvarter,1751,1527,27,197
+,,Vanløse - Jernbane Allé Kvarter,1640,1368,38,234
+,,Vanløse - Sallingvej Kvarter,1194,1046,28,120
+,,Vanløse - Grøndals Park Kvarter,629,522,14,93
+,,Brønshøj-Husum - Husum,2255,1875,51,329
+,,Brønshøj-Husum - Husum Nord,998,668,31,299
+,,Brønshøj-Husum - Tingbjerg,506,340,16,150
+,,Brønshøj-Husum - Brønshøj,1414,1271,22,121
+,,Brønshøj-Husum - Bellahøj,420,277,8,135
+,,Bispebjerg - Emdrup,535,421,10,104
+,,Bispebjerg- Ryparken-Lundehus,718,510,19,189
+,,Bispebjerg - Bispebjerg,734,548,21,165
+,,Bispebjerg - Utterslev,718,537,20,161
+,,Bispebjerg - Nordvest,2787,1919,82,786
+,,Amager Øst - Amagerbro Øst,2466,1912,77,477
+,,Amager Øst - Sundbyøster,1667,1393,38,236
+,,Amager Øst - Villakvartererne,2255,1997,50,208
+,,Amager Øst - Nordøstamager,1086,918,29,139
+,,Amager Vest - Amagerbro Vest,791,666,21,104
+,,Amager Vest - Bryggen Syd,969,847,15,107
+,,Amager Vest - Faste Batteri,492,416,12,64
+,,Amager Vest - Gamle Bryggen,1155,1018,24,113
+,,Amager Vest - Grønjordssøen (Ørestad Nord og Vejlandskvarter),307,260,7,40
+,,Amager Vest - Kolonihavekvarteret,831,694,15,122
+,,Amager Vest - Sundbyvester,1906,1657,40,209
+,,Amager Vest - Sundholmsvejs kvarteret,1249,884,32,333
+,,Amager Vest - Urbanplanen,531,359,11,161
+,,Amager Vest - Ørestad City,1043,848,29,166
+,,Amager Vest - Ørestad Syd,1462,1199,31,232
+,55-64 år,København i alt,63257,45312,1452,16493
+,,Bydel - Indre By,6608,5212,145,1251
+,,Bydel - Østerbro,9199,7174,198,1827
+,,Bydel - Nørrebro,6371,4083,176,2112
+,,Bydel - Vesterbro/Kongens Enghave,7252,5266,177,1809
+,,Bydel - Valby,5736,4021,148,1567
+,,Bydel - Vanløse,4389,3342,82,965
+,,Bydel - Brønshøj-Husum,4936,3292,112,1532
+,,Bydel - Bispebjerg,4915,2966,118,1831
+,,Bydel - Amager Øst,5825,4287,132,1406
+,,Bydel - Amager Vest,7643,5567,159,1917
+,,Lokaludvalg - Indre By,4963,3965,101,897
+,,Lokaludvalg - Christianshavn,1645,1247,44,354
+,,Lokaludvalg - Østerbro,9199,7174,198,1827
+,,Lokaludvalg - Nørrebro,6371,4083,176,2112
+,,Lokaludvalg - Vesterbro,4416,3370,110,936
+,,Lokaludvalg - Kgs. Enghave,2836,1896,67,873
+,,Lokaludvalg - Valby,5736,4021,148,1567
+,,Lokaludvalg - Vanløse,4389,3342,82,965
+,,Lokaludvalg - Brønshøj-Husum,4936,3292,112,1532
+,,Lokaludvalg - Bispebjerg,4915,2966,118,1831
+,,Lokaludvalg - Amager Øst,5825,4287,132,1406
+,,Lokaludvalg - Amager Vest,7643,5567,159,1917
+,,Indre By - Middelalderbyen,837,641,12,184
+,,Indre By - Metropolzonen,294,..,..,53
+,,Indre By - Nansensgade-kvarteret,719,587,24,108
+,,Indre By - Øster Farimagsgade-kvarteret,871,721,17,133
+,,Indre By - Østerport,630,500,13,117
+,,Indre By - Frederiksstaden,1144,899,23,222
+,,Indre By - Gammelholm og Nyhavn,468,382,6,80
+,,Christianshavn - Neden Vandet,450,339,11,100
+,,Christianshavn - Oven Vandet,844,610,24,210
+,,Christianshavn - Holmen og Refshaleøen,351,298,9,44
+,,Østerbro - Nord/Komponistkvarteret,398,328,13,57
+,,Østerbro - Svanemøllen Syd/Øst,1117,811,22,284
+,,Østerbro - Århusgade Nord,914,..,..,178
+,,Østerbro - Århusgade Syd,1460,1220,28,212
+,,Østerbro - Rosenvænget,1229,988,31,210
+,,Østerbro - Ny Ryvang,341,204,3,134
+,,Østerbro - Nord,650,504,18,128
+,,Østerbro - Nordhavn,758,625,..,..
+,,Østerbro - Lyngbyvej Vest,463,332,6,125
+,,Østerbro - Lyngbyvej Øst/Klimakvarteret,761,..,..,159
+,,Østerbro - Fælled,1108,867,23,218
+,,Nørrebro - Blågårdskvarteret/Assistens/Rantzausgade,1408,928,46,434
+,,Nørrebro - Guldbergskvarteret/Panum/Ravnsborggade,1731,1190,56,485
+,,Nørrebro - Stefansgade/Nørrebroparken/Lundtoftegade,1275,855,33,387
+,,Nørrebro - Mimersgade-kvarteret/ Nørrebro St.,1163,689,29,445
+,,Nørrebro - Haraldsgade-kvarteret,794,..,..,361
+,,Vesterbro - Vest,1027,790,17,220
+,,Vesterbro - Central,2151,1606,61,484
+,,Vesterbro - Øst,740,574,..,..
+,,Vesterbro - Syd,498,400,..,..
+,,Kgs. Enghave - Bavnehøj,325,..,..,168
+,,Kgs. Enghave - Gl. Sydhavn,1418,831,36,551
+,,Kgs. Enghave - Holmene,1093,918,21,154
+,,Valby - Gl. Valby,1173,897,40,236
+,,Valby - Syd,1743,1190,45,508
+,,Valby - Ålholm,1051,745,27,279
+,,Valby - Valby Sydvest,1035,711,25,299
+,,Valby - Vigerslev,734,..,..,245
+,,Vanløse - Jyllingevej Kvarter,1344,1075,20,249
+,,Vanløse - Jernbane Allé Kvarter,1477,1089,22,366
+,,Vanløse - Sallingvej Kvarter,994,762,25,207
+,,Vanløse - Grøndals Park Kvarter,574,416,15,143
+,,Brønshøj-Husum - Husum,1927,1425,36,466
+,,Brønshøj-Husum - Husum Nord,964,524,21,419
+,,Brønshøj-Husum - Tingbjerg,459,..,..,238
+,,Brønshøj-Husum - Brønshøj,1148,913,31,204
+,,Brønshøj-Husum - Bellahøj,438,..,..,205
+,,Bispebjerg - Emdrup,470,320,13,137
+,,Bispebjerg- Ryparken-Lundehus,733,466,21,246
+,,Bispebjerg - Bispebjerg,730,463,18,249
+,,Bispebjerg - Utterslev,592,367,17,208
+,,Bispebjerg - Nordvest,2390,1350,49,991
+,,Amager Øst - Amagerbro Øst,2147,1482,47,618
+,,Amager Øst - Sundbyøster,1409,1039,35,335
+,,Amager Øst - Villakvartererne,1495,1160,34,301
+,,Amager Øst - Nordøstamager,774,606,16,152
+,,Amager Vest - Amagerbro Vest,695,..,..,146
+,,Amager Vest - Bryggen Syd,604,489,15,100
+,,Amager Vest - Faste Batteri,386,313,9,64
+,,Amager Vest - Gamle Bryggen,824,645,21,158
+,,Amager Vest - Grønjordssøen (Ørestad Nord og Vejlandskvarter),213,169,..,..
+,,Amager Vest - Kolonihavekvarteret,486,359,8,119
+,,Amager Vest - Sundbyvester,1484,1134,32,318
+,,Amager Vest - Sundholmsvejs kvarteret,1228,726,29,473
+,,Amager Vest - Urbanplanen,597,336,6,255
+,,Amager Vest - Ørestad City,485,374,12,99
+,,Amager Vest - Ørestad Syd,641,484,..,..
+,65 år og derover,København i alt,72016,11738,229,60049
+,,Bydel - Indre By,8904,2007,25,6872
+,,Bydel - Østerbro,10905,1995,28,8882
+,,Bydel - Nørrebro,6576,953,20,5603
+,,Bydel - Vesterbro/Kongens Enghave,6130,1071,24,5035
+,,Bydel - Valby,6665,928,22,5715
+,,Bydel - Vanløse,5656,889,19,4748
+,,Bydel - Brønshøj-Husum,6153,891,23,5239
+,,Bydel - Bispebjerg,5786,727,18,5041
+,,Bydel - Amager Øst,6564,943,18,5603
+,,Bydel - Amager Vest,8571,1325,32,7214
+,,Lokaludvalg - Indre By,6302,1493,10,4799
+,,Lokaludvalg - Christianshavn,2602,514,15,2073
+,,Lokaludvalg - Østerbro,10905,1995,28,8882
+,,Lokaludvalg - Nørrebro,6576,953,20,5603
+,,Lokaludvalg - Vesterbro,3187,653,15,2519
+,,Lokaludvalg - Kgs. Enghave,2943,418,9,2516
+,,Lokaludvalg - Valby,6665,928,22,5715
+,,Lokaludvalg - Vanløse,5656,889,19,4748
+,,Lokaludvalg - Brønshøj-Husum,6153,891,23,5239
+,,Lokaludvalg - Bispebjerg,5786,727,18,5041
+,,Lokaludvalg - Amager Øst,6564,943,18,5603
+,,Lokaludvalg - Amager Vest,8571,1325,32,7214
+,,Indre By - Middelalderbyen,823,244,0,579
+,,Indre By - Metropolzonen,551,..,..,421
+,,Indre By - Nansensgade-kvarteret,761,..,..,590
+,,Indre By - Øster Farimagsgade-kvarteret,1065,..,..,799
+,,Indre By - Østerport,841,..,..,659
+,,Indre By - Frederiksstaden,1703,..,..,1377
+,,Indre By - Gammelholm og Nyhavn,558,..,..,374
+,,Christianshavn - Neden Vandet,782,157,3,622
+,,Christianshavn - Oven Vandet,1343,..,..,1085
+,,Christianshavn - Holmen og Refshaleøen,477,..,..,366
+,,Østerbro - Nord/Komponistkvarteret,373,84,0,289
+,,Østerbro - Svanemøllen Syd/Øst,1601,242,6,1353
+,,Østerbro - Århusgade Nord,892,..,..,716
+,,Østerbro - Århusgade Syd,1409,310,8,1091
+,,Østerbro - Rosenvænget,1202,272,..,..
+,,Østerbro - Ny Ryvang,512,..,..,449
+,,Østerbro - Nord,1243,..,..,1030
+,,Østerbro - Nordhavn,552,..,..,..
+,,Østerbro - Lyngbyvej Vest,915,..,..,794
+,,Østerbro - Lyngbyvej Øst/Klimakvarteret,791,..,..,670
+,,Østerbro - Fælled,1415,..,..,1176
+,,Nørrebro - Blågårdskvarteret/Assistens/Rantzausgade,1448,269,3,1176
+,,Nørrebro - Guldbergskvarteret/Panum/Ravnsborggade,2040,264,6,1770
+,,Nørrebro - Stefansgade/Nørrebroparken/Lundtoftegade,1311,174,6,1131
+,,Nørrebro - Mimersgade-kvarteret/ Nørrebro St.,1013,136,3,874
+,,Nørrebro - Haraldsgade-kvarteret,764,..,..,652
+,,Vesterbro - Vest,900,172,..,..
+,,Vesterbro - Central,1473,288,9,1176
+,,Vesterbro - Øst,552,111,..,..
+,,Vesterbro - Syd,262,82,..,..
+,,Kgs. Enghave - Bavnehøj,441,..,..,408
+,,Kgs. Enghave - Gl. Sydhavn,1857,231,5,1621
+,,Kgs. Enghave - Holmene,645,155,3,487
+,,Valby - Gl. Valby,1325,232,3,1090
+,,Valby - Syd,2124,265,8,1851
+,,Valby - Ålholm,1232,..,..,1058
+,,Valby - Valby Sydvest,1171,166,5,1000
+,,Valby - Vigerslev,813,..,..,716
+,,Vanløse - Jyllingevej Kvarter,1733,300,5,1428
+,,Vanløse - Jernbane Allé Kvarter,1975,290,4,1681
+,,Vanløse - Sallingvej Kvarter,1227,..,..,1045
+,,Vanløse - Grøndals Park Kvarter,721,..,..,594
+,,Brønshøj-Husum - Husum,2333,367,8,1958
+,,Brønshøj-Husum - Husum Nord,1174,113,6,1055
+,,Brønshøj-Husum - Tingbjerg,604,..,..,555
+,,Brønshøj-Husum - Brønshøj,1486,303,5,1178
+,,Brønshøj-Husum - Bellahøj,556,..,..,493
+,,Bispebjerg - Emdrup,797,..,..,678
+,,Bispebjerg- Ryparken-Lundehus,991,124,4,863
+,,Bispebjerg - Bispebjerg,1050,..,..,943
+,,Bispebjerg - Utterslev,738,..,..,655
+,,Bispebjerg - Nordvest,2210,301,7,1902
+,,Amager Øst - Amagerbro Øst,2092,295,4,1793
+,,Amager Øst - Sundbyøster,1870,200,7,1663
+,,Amager Øst - Villakvartererne,1816,304,3,1509
+,,Amager Øst - Nordøstamager,786,144,4,638
+,,Amager Vest - Amagerbro Vest,796,..,..,643
+,,Amager Vest - Bryggen Syd,469,..,..,346
+,,Amager Vest - Faste Batteri,575,..,..,468
+,,Amager Vest - Gamle Bryggen,889,..,..,737
+,,Amager Vest - Grønjordssøen (Ørestad Nord og Vejlandskvarter),206,..,..,..
+,,Amager Vest - Kolonihavekvarteret,581,92,3,486
+,,Amager Vest - Sundbyvester,1760,269,6,1485
+,,Amager Vest - Sundholmsvejs kvarteret,1359,163,8,1188
+,,Amager Vest - Urbanplanen,986,..,..,891
+,,Amager Vest - Ørestad City,402,68,4,330
+,,Amager Vest - Ørestad Syd,548,75,..,..
+,,,,,,
+Kilde: Københavns Kommunes beregninger på baggrund af mikrodata fra Danmarks Statistiks Forskningsservice ,,,,,,

@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "adjusttext>=1.4.0",
     "branca>=0.8.2",
     "cdsapi>=0.7.7",
     "folium>=0.20.0",
