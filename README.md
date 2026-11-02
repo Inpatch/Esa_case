@@ -1,5 +1,5 @@
 
-
+# Start here
 
 ## Requirements
 UV Install: https://docs.astral.sh/uv/getting-started/installation/#installation-methods (Note only install uv, don't do anything else)
@@ -10,8 +10,8 @@ UV Install: https://docs.astral.sh/uv/getting-started/installation/#installation
 ## Start
 
 - Open terminal
-- Insert "uv sync"
-- run env_maker.py "python env_maker.py
+- Insert "uv sync" and press enter
+- intsert "python env_maker.py" and press enter
 
 
 # FAQ 
