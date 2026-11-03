@@ -5,4 +5,5 @@ venv
 
 .env
 
-data/raw/esa/matas_data/matas_data.tar.gz
+data/raw/esa/matas_data/data_dictionary.csv
+data/raw/esa/matas_data/Merged
