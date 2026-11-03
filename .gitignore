@@ -4,3 +4,5 @@ enviroment
 venv
 
 .env
+
+data/raw/esa/matas_data/matas_data.tar.gz
